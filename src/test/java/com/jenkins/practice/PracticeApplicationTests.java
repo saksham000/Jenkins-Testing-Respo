@@ -16,7 +16,7 @@ class PracticeApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test is Executed...!");
-		logger.info("Jenkins is Running !!!!");
+		logger.info("Jenkins is Running and pushing image to Docker !!!!");
 		assertEquals(true, true);
 	}
 
