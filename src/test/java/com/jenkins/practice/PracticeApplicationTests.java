@@ -11,11 +11,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 class PracticeApplicationTests {
 
 	Logger logger = LoggerFactory.getLogger(PracticeApplicationTests.class);
-	
+
 
 	@Test
 	void contextLoads() {
 		logger.info("Test is Executed...!");
+		logger.info("Jenkins is Running !!!!");
 		assertEquals(true, true);
 	}
 
